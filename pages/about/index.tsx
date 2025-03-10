@@ -10,12 +10,9 @@ import Footer from '../../component/section-pages/footer';
 import ScrollToTopBtn from '../../component/layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
 
-const image1 ="../../img/background/subheader-about.webp";
 import image2 from "../../public/img/misc/building.webp";
 import image3 from "../../public/img/logo.png";
-import image4 from "../../public/img/team/1.webp";
-import image5 from "../../public/img/team/3.webp";
-import image6 from "../../public/img/team/4.webp";
+
 
 const GlobalStyles = createGlobalStyle`
 
@@ -35,7 +32,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Nemesis - Game Hosting Website Template</title>
+      <title>Nemesis</title>
       <link rel="icon" href="../img/icon.png" type="image/gif" sizes="16x16"/>
     </Head>
 
@@ -53,8 +50,7 @@ export default function Home() {
       </header>
 
       {/* section */}
-      <Parallax className="" bgImage={image1} strength={5}>  
-        <section className="no-bg">
+      <section className="about-bg">
           <div className="container z-9">
               <div className="row">
                   <div className="col-lg-12">
@@ -66,7 +62,6 @@ export default function Home() {
               </div>
           </div>
         </section>
-      </Parallax>
 
       {/* section */}
       <section>

@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Playhost - Game Hosting Website Template</title>
+      <title>Nemesis</title>
       <link rel="icon" href="../img/icon.png" type="image/gif" sizes="16x16"/>
     </Head>
 
@@ -58,7 +58,7 @@ export default function Home() {
 
       {/* slider */}
       <Parallax className="bgcolor" bgImage={image2} strength={300}>  
-        <section id="content" className="pt60 no-bottom">
+        <section id="content" className="pt-0 pb-0">
           <Homestatic />
         </section>
        </Parallax>

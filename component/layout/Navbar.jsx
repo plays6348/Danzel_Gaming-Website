@@ -107,6 +107,11 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
                       About
                       </Link>
                     </div>
+                    <div className='navbar-item counter'>
+                      <Link href="/contact">
+                      Contact
+                      </Link>
+                    </div>
 
                   
 
@@ -183,23 +188,11 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
                 </Link>
               </div>
 
-              {/* <div className='navbar-item counter'>
-                  <div ref={ref4}>
-                    <div className="dropdown-custom dropdown-toggle btn" 
-                       onMouseEnter={handleBtnClick4} onMouseLeave={closeMenu4}>
-                      More Pages
-                      {openMenu4 && (
-                      <div className='item-dropdown'>
-                        <div className="dropdown" onClick={closeMenu4}>
-                          <Link href="/login">Login</Link>
-                          <Link href="/register">Register</Link>
-                        </div>
-                      </div>
-                    )}
+              <div className='navbar-item counter'>
+                      <Link href="/contact">
+                      Contact
+                      </Link>
                     </div>
-                    
-                  </div>
-              </div> */}
 
             </div>
           </div>
@@ -207,7 +200,7 @@ const { isOpen: openMenu4, toggleDropdown: handleBtnClick4, closeDropdown: close
 
           {/********* Side Button *********/}
           <div className="menu_side_area">
-              <Link href="#" className="btn-line" id="btn-line">Get Hosting</Link>
+              <Link href="#" className="btn-line" id="btn-line">Call to action</Link>
               {/********* Burger Button *********/}
               <button className="burgermenu" type="button" 
                 onClick={() => {

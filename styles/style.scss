@@ -940,6 +940,18 @@ section, .section{
       padding: 0;
   }
 }
+.banner{
+  background-image: linear-gradient(to right, rgb(72 85 181 / 81%), rgb(141 56 87 / 93%)), url("../public/img/own/Untitled-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.about-bg{
+  background-image: linear-gradient(to right, rgb(72 85 181 / 81%), rgb(141 56 87 / 93%)), url("../public/img/own/Untitled-3.png") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 400px !important;
+}
 .subtitle {
   position: relative;
   display: inline-block;

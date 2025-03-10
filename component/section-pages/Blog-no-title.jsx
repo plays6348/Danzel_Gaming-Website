@@ -6,7 +6,7 @@ import image1 from '../../public/img/own/CA6.png';
 import image2 from '../../public/img/own/BK7.png';
 import image3 from '../../public/img/own/BK11.png';
 import image4 from '../../public/img/own/BK12.png';
-import image5 from '../../public/img/own/CA4.PNG';
+import image5 from '../../public/img/own/CA4.png';
 // import image6 from '../../public/img/own/6.webp';
 
 const postDetails = [
